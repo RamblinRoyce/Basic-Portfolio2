@@ -1,0 +1,192 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* YOUR CSS GOES HERE*/
+
+body {
+	width: 960px;
+	font-size: 18px;
+	line-height: 32px;
+	/*
+	color: #333;
+	
+	margin-left: 100px;
+	margin-right: 150px:;
+	*/
+	background-color: #ccc;
+	border: black dotted;
+}
+#header1 {
+	width: 960px;
+	height: 80px;
+	background-color: #ffffff;
+	border-bottom: #777777 solid;
+}
+#name {
+	float: left;
+	margin-left: 20px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 10px;
+	text-align: center;
+	width:250px;
+}
+
+.nav1 a {	
+	text-decoration: none;	/* removes underlines from link, must apply to anchor */
+	font-family: Arial;
+    
+    border-color: #dddddd;
+    padding-right: 20px;
+    
+}
+li {
+	/*position: absolute;*/
+	float: right;
+	list-style-type: none;	/* removes bullets from list */
+	
+	
+	margin-top: 30px;	
+}
+
+
+section {
+	clear: both;
+	width: 650px;
+	height: 300px;
+	margin-left: 20px;
+	background-color: #ffffff;
+	border: #dddddd solid;
+	border-width: 2px;
+	float: left;
+	/*
+	width: 495px;
+	padding: 20px;
+	background: #ccc;
+	margin-bottom: 20px;
+	*/
+}
+#section1 {
+	/*
+	background: #fff;
+	padding-top: 30px;
+	float: left;
+	margin-left: 50px;
+	margin-bottom: 20px;
+	color: #777777;
+	*/
+}
+#about-me {
+	float: left;
+	margin-left: 20px;
+	color: #4aaaa5;
+}
+#article1 {
+	clear: both;
+	width: 475px;
+	height: 220px;
+	background: #777777;
+	margin: 10px 10px 10px 10px;
+	padding-top: 10px;
+	color: #ccc;
+}
+
+/*
+.parts {
+	width: 445px;
+	height: 80px;
+	background: #ccc;
+	margin: 10px 30px 10px 10px;
+	padding-top: 10px;
+	color: #777777;
+}
+*/
+#h123 {
+	width: 440px;
+	height: 70px;
+	background: #ccc;
+	margin: 10px 30px 10px 15px;
+	padding-top: 10px;
+	color: #777777;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+#p1 {
+	width: 440px;
+	height: 70px;
+	background: #ccc;
+	margin: 10px 30px 10px 15px;
+	padding-top: 10px;
+	color: #777777;
+}
+
+#aside1 {
+	width: 270px;
+	height: 300px;
+	background: #fff;
+	
+	float: right;
+	color: #777777;
+}
+#connect {
+	float: left;
+	margin-left: 20px;
+	color: #4aaaa5;
+	text-align: center;
+}
+#footer1{
+	clear: both;
+	background: #ccc;
+	padding: 20px;
+	color: #333;
+	color: #777777;
+}
+
+
+/*
+#left {
+	float: left;
+	width: 33.3%;
+	background: #666;
+	color: #fff;
+}
+#middle {
+	float: left;
+	width: 33.3%;
+	background: #888;
+	color: #fff;
+}
+#right {
+	float: left;
+	width: 33.3%;
+	background: #666;
+	color: #fff;
+}
+#full {
+	clear: both;
+	width: 100%;
+	background: #eee;
+	overflow: auto;
+}
+#division {
+	background: #6ea3da;
+	padding: 20px;
+	margin-top: 20px;
+}
+aside {
+	float: left;
+	width: 33%;
+	margin-left: 30px;
+	padding: 20px;
+	height: 200px;
+	background: #fff;
+	border: 1px solid #eee;
+}
+footer {
+	background: #ccc;
+	padding: 20px;
+	clear: both;
+}
